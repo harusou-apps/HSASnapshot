@@ -36,8 +36,7 @@
 }
 
 - (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
     XCUIApplication *app = [[XCUIApplication alloc] init];
     
     //Tap Navifation Rght (+) Button
@@ -52,5 +51,13 @@
     [Snapshot snapshot:@"detail" waitForLoadingIndicator:YES];
 
 }
+
+- (void)testExample2 {
+
+    sleep(1);
+    [Snapshot snapshot:@"master" waitForLoadingIndicator:YES];
+    
+}
+
 
 @end
