@@ -21,6 +21,11 @@
                BlueprintName = "HSASnapshotUITests"
                ReferencedContainer = "container:HSASnapshot.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "HSASnapshotUITests/testExample2">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
