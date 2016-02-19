@@ -43,19 +43,19 @@
     [[app.navigationBars[@"Master"].buttons elementBoundByIndex:2] tap];
     
     sleep(1);
-    [Snapshot snapshot:@"master" waitForLoadingIndicator:YES];
+    [Snapshot snapshot:@"1master" waitForLoadingIndicator:YES];
     
     
     [[app.tables.cells elementBoundByIndex:0] tap];
     sleep(1);
-    [Snapshot snapshot:@"detail" waitForLoadingIndicator:YES];
+    [Snapshot snapshot:@"2detail" waitForLoadingIndicator:YES];
 
 }
 
 - (void)testExample2 {
 
     sleep(1);
-    [Snapshot snapshot:@"master" waitForLoadingIndicator:YES];
+    [Snapshot snapshot:@"1master" waitForLoadingIndicator:YES];
     
 }
 
